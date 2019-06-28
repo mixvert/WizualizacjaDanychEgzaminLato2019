@@ -1,0 +1,40 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 2"
+output:
+  pdf_document: default
+  word_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz funkcję, której argumentem jest lista. Funkcja ma zwracać wejściową listę bez duplikatów elementów. Stwórz przypadek testowy dla funkcji.
+
+Przykładowe wejście: `[34,12,-3,4,5,5,12,-3]`
+
+Przykładowe wyjście: `[34,12,-3,4,5]`
+
+Zad.2. (10 pkt) Napisz rekurencyjną funkcję, która zwraca sumę cyfr dodatniej liczby całkowitej podanej jako argument funkcji. Stwórz przypadek testowy dla funkcji.
+
+Przykładowe wejście: `34512`
+
+Przykładowe wyjście: `15`
+
+Zad.3. (10 pkt) Napisz program, który zlicza długość stringu podanego na standardowym wejściu (wpisanego przez użytkownika). W programie nie korzystaj z gotowych funkcji.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosc.csv` jako ramkę danych,
+* na podstawie danych stwórz wykres liniowy prezentujący zmienną1 i zmienną2 względem czasu. Wykres powinien posiadać tytuł. Zmienna1 ma być brązową linią przerywaną, zaś zmienna2 czerwoną linią ciągłą. Etykiety obu osi muszą być podpisane. Podziałka na osi poziomej musi być ustawiona co pełną jednostkę, zaś na osi pionowej co pełne 5 jednostek. Legenda powinna być umieszczona po lewej stronie na środku. Dodaj na wykres siatkę.
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `medale.csv`,
+* stwórz serię (ramkę lub tablicę) zawierającą sumę medali dla poszczególnych olimpiad,
+* stwórz dwie serie (ramki, tablice) zawierające odpowiednio sumę medali dla poszczególnych olimpiad letnich i zimowych,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy słupkowe prezentujące liczbę medali Polski na poszczególnych olimpiadach. Wykresy powinny posiadać tytuły. Słupki dla olimpiad letnich powinny być pomarańczowe, a dla zimowych niebieskie. Podziałka na osi pionowej powinna być co dwie jednostki.
