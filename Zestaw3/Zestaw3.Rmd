@@ -1,0 +1,65 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 3"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz klasę:
+
+```python
+class Calculator:
+    def __init__(self, var1, ____):
+        self.____ = var1
+        self.____ = _____
+    
+    def calculate_power(self):
+        return self.____ ** ____.____
+    
+    def calculate_sum(____, var3):
+        return ____.____ + ____.____ + var3
+```
+
+Zastąp miejsca `____` tak, aby by uruchomieniu poniższego kodu, na konsoli pojawiło się dwukrotnie `True`.
+
+```
+calc = Calculator(2, 3)
+print(calc.calculate_power() == 8)
+print(calc.calculate_sum(4) == 9)
+```
+
+
+Zad.2. (10 pkt) Napisz program, który ze standardowego wejścia pobiera trzy liczby wymierne `a,b,c` i na standardowym wyjściu w kolejnych wierszach wyświetla wyniki operacji:
+
+* $operacja1= \frac{a^2+\sin(b)}{e^c}$
+* $operacja2= \arctan (b\cdot c^2)$
+* $operacja3 = \log_a c$
+
+Zad.3. (10 pkt) Napisz funkcję, która zwraca średnią długość wyrazów w zdaniu podanym jako argument funkcji. Wynik ma być zaokrąglony do liczby całkowitej zgodnie z matematycznymi zasadami.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---|
+| Ala ma kota |  3 |
+| Wlazł kotek na płotek | 4 |
+| Lorem ipsum dolor sit amet | 4 |
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosw3.csv` jako ramkę danych,
+* na podstawie danych stwórz wykres liniowy zmiennej od czasu. Dane powinny być zobrazowane zieloną linią przerywaną. Wykres powinien posiadać tytuł i podpisane etykiety obu osi, legendę umieść w lewym górnym rogu. 
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `medale.csv`,
+* stwórz serię (ramkę lub tablicę) zawierającą sumę medali dla poszczególnych olimpiad,
+* stwórz dwie serie (ramki, tablice) zawierające odpowiednio sumę medali dla poszczególnych olimpiad letnich i zimowych,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy słupkowe prezentujące liczbę medali Polski na poszczególnych olimpiadach. Wykresy powinny posiadać tytuły. Słupki dla olimpiad letnich powinny być pomarańczowe, a dla zimowych niebieskie. Podziałka na osi pionowej powinna być co dwie jednostki.
+

@@ -1,0 +1,2 @@
+Zad.2. W drugim przypadku testowym jest błąd - powinno być 5.
+Maksymalnie punktowe były wszystkie rozwiązanie niezależnie od mechanizmu zaokrąglenia.
