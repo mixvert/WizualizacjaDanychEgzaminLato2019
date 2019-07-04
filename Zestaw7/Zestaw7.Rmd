@@ -1,0 +1,45 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 7"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz funkcję, której argumentem jest string. Funkcja ma zwracać string powstały z wejściowego z usuniętymi znakami na nieparzystych indeksach. Stwórz przypadek testowy dla funkcji.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---| 
+| abcdef | ace|
+| Olsztyn | Ostn |
+
+Zad.2. (10 pkt) Napisz nierekurencyjną funkcję, która zwraca sumę cyfr dodatniej liczby całkowitej podanej jako argument funkcji. Stwórz przypadek testowy dla funkcji.
+
+Zad.3. (10 pkt) Napisz program, który na konsoli wyświetli wszystkie możliwe kombinacje ciągów składających
+się z dwóch dużych liter: AA, AB, AC,..., ZZ.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosc7.csv` jako ramkę danych,
+* na podstawie danych stwórz wykres liniowy prezentujący zmienną1 i zmienną2 względem czasu. Wykres powinien posiadać tytuł. Zmienna1 ma być niebieską linią przerywaną, zaś zmienna2 zieloną linią ciągłą. Etykiety obu osi muszą być podpisane. Podziałka na osi poziomej musi być ustawiona co pełną jednostkę, zaś na osi pionowej co pełne 5 jednostek. Legenda powinna być umieszczona po lewej stronie na dole. Dodaj na wykres siatkę.
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport7.csv` jako ramkę danych,
+* stwórz dwie ramki na bazie poprzedniej zawierające odpowiednio dane dotyczące mężczyzn i kobiet,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy słupkowe pokazujące popularność sportu. Słupki powinny być w kolorze innym niż domyślny i różnić się dla kobiet i mężczyzn. Wykresy powinny mieć tytuły. Oba wykresy muszą mieć taką samą podziałkę na osi pionowej.
+
+
+
+
+
+
+
