@@ -1,0 +1,45 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 6"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program, który ze standardowego wejścia (wprowadzonego przez użytkownika) pobiera liczbę w systemie dwójkowym. Program ma wyświetlić na standardowym wyjściu liczbę w systemie dziesiętnym.
+
+Przykładowe wejście: 11011
+
+Przykładowe wyjście: 27
+
+Zad.2. (10 pkt) Napisz program, który ze standardowego wejścia pobiera cztery liczby `a`, `b`, `c` i `d`. Na standardowym wyjściu umieść w kolejnych wierszach wyniki poniższych operacji wykonanych za pomocą kodu:
+
+
+* $operacja1= \sqrt[3]{abc}$
+* $operacja2= \ln (a^3)+\log_{10} d$
+* $operacja3= sin^2(a)+cos^2(a)+\frac{d}{\sqrt{d}}$
+
+Zad.3. (10 pkt) Napisz program, który na konsoli wyświetli wszystkie możliwe kombinacje ciągów składających się z trzech małych liter: `aaa`, `aab`, `aac`, `aad`..., `zzz`.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosw6.csv` jako ramkę danych,
+* stwórz wykres liniowy zmiennej względem czasu. Wykres powinien posiadać tytuł. Ogranicz oś poziomą do przedziału $[2,8]$, a oś pionową do przedziału $[9,12]$. Dodaj legendę do wykresu. Linia powinna być przerywana w kolorze czerwonym. W prawym dolnym rogu dodaj tekst ze swoim numerem indeksu. Podpisz etykietę osi poziomej.
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport6.csv` jako ramkę danych,
+* stwórz dwie ramki na bazie poprzedniej zawierające odpowiednio dane dotyczące mężczyzn i kobiet,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy słupkowe pokazujące popularność sportu. Słupki powinny być w kolorze innym niż domyślny i różnić się dla kobiet i mężczyzn. Wykresy powinny mieć tytuły. Oba wykresu muszą mieć taką samą podziałkę na osi pionowej.
+
+
+
+
