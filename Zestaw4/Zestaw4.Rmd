@@ -1,0 +1,60 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 4"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz funkcję, której argumentami są dwie listy. Funkcja ma zwrócić listę powstałą z połączenia obu list wg poniższego schematu:
+
+Przykładowe wejście:
+
+```
+x = ['A', 'B', 'C']
+y = ['x', 'y', 'z']
+```
+
+Przykładowe wyjście:
+
+```
+[('A','x'), ('B','y'), ('C','z')]
+```
+
+Zad.2. (10 pkt) Napisz funkcję, której argument nie ma sprecyzowanej długości. Funkcja ma zwrócić różnicę między największym a najmniejszym elementem przekazanym jako argument funkcji. Stwórz przypadek testowy dla funkcji.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---|
+| 2,3,4,4,-2,8,10 | 12|
+| 2,3 | 1|
+| 5 | 0 |
+| 1,2,-3,40 | 43 |
+
+Zad.3. (10 pkt) Napisz funkcję `gwiazdki`, której parametrem jest lista dodatnich liczb całkowitych. Funkcja ma wyświetlić na standardowym wyjściu (konsoli) w kolejnych wierszach tyle gwiazdek ile wynosi kolejna liczba. Przykładowo po wywołaniu `gwiazdki([ 4, 9, 7 ])` ) ma być wyświetlone następująco:
+
+```
+****
+*********
+*******
+```
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosw4.csv` jako ramkę danych,
+* na podstawie danych stwórz wykres punktowy zmiennej od czasu. Wykres powinien posiadać tytuł i podpisane etykiety obu osi, legendę umieść w środkowej dolnej części wykresu. 
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `wyksz.csv` jako ramkę danych,
+* w ramki danych stwórz 3 oddzielne ramki danych zawierających odpowiednie wiersze zawierające dane o wykształceniu wyższym, średnim i podstawowym,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący dane o wykształceniu względem przedziału wiekowego. Wykres powinien posiadać odpowiedni tytuł. Legenda powinna być umieszczona po prawej stronie w połowie wysokości. Etykiety i podziałki obu osi muszą być podpisane jak w pliku `zad5.png`.
+
+
+Dane pochodzą z Narodowego Spisu Ludności z roku 2002. Źródło danych: Bank danych lokalnych GUS. 
