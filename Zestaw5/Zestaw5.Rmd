@@ -1,0 +1,34 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 5"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz funkcję, której parametrem jest lista stringów. Funkcja ma zwrócić najkrótszy string (w przypadku kilku stringów o tej samej najkrótszej długości, ma zwrócić ostatni najkrótszy). Stwórz przypadek testowy dla funkcji.
+
+Zad.2. (10 pkt) Za pomocą list comprehension wyświetl na konsoli liczby pomiędzy 200 a 300 podzielne przez 8.
+
+Zad.3. (10 pkt) Stwórz klasę `Wektor` z dwoma polami (zmiennymi) `a` i `b` (oznaczającymi współrzędne wektora na płaszczyźnie). W klasie stwórz funkcję odpowiadającą dodawaniu wektorów (funkcja ma mieć dwa argumenty w typie klasy, dodawanie się odbywa po współrzędnych). Stwórz przypadek testowy dla funkcji.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `rocky.csv`,
+* stwórz wykres słupkowy poziomy prezentujący zyski poszczególnych filmów serii o Rocky. Wykres powinien posiadać tytuł i podpisane etykiety obu osi. Podziałka osi pionowej musi być podpisana nazwami filmów. Słupki powinny być w kolorze innym niż domyślny.
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Źródło danych: Wikipedia na licencji  Creative Commons Attribution-ShareAlike.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport5.csv` jako ramkę danych,
+* stwórz dwie ramki na bazie poprzedniej zawierające odpowiednio dane dotyczące mężczyzn i kobiet,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy kołowe pokazujące popularność sportu. Każdy wycinek dotyczący konkretnego sportu na obu wykresach musi być w tym samym kolorze. Wykresy powinny mieć tytuły. Na wykresie muszą być widoczne procenty z zaokrągleniem do pełnego procenta.
+
