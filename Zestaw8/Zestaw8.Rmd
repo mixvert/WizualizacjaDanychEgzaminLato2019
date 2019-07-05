@@ -1,0 +1,59 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 8"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz funkcję `gwiazdki`, której parametrem jest dodatnia liczba całkowita. Funkcja ma wyświetlić gwiazdki na standardowym wyjściu (konsoli) wg wzoru np. dla 5:
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+Zad.2. (10 pkt) Napisz program, który zamienia krotkę (tuple) na string.
+
+Zad.3. (10 pkt) Za pomocą "List Comprehension" stwórz listę (może być zagnieżdżona) przechowująca wyniki mnożenia wszystkich możliwych kombinacji liczb całkowitych od 1 do 7.
+
+Wyjściowa lista może być przykładowo takiej postaci:
+
+```python
+[[1, 2, 3, 4, 5, 6, 7], [2, 4, 6, 8, 10, 12, 14], 
+[3, 6, 9, 12, 15, 18, 21], [4, 8, 12, 16, 20, 24, 28], 
+[5, 10, 15, 20, 25, 30, 35], [6, 12, 18, 24, 30, 36, 42], 
+[7, 14, 21, 28, 35, 42, 49]]
+```
+
+Stwórz przypadek testowy dla funkcji.
+
+Zad.4. (15 pkt) Wykonaj poniższe czynności:
+
+* załaduj dane z pliku `przepis.csv` jako ramkę danych,
+* ustaw jako indeksy (nazwy wierszy) kolumnę z nazwami składników,
+* stwórz wykres kołowy prezentujący procent udział składników w przepisie, podpisz każdy wycinek odpowiednią nazwą składnika. Wykres powinien posiadać tytuł. Każdy wycinek powinien być w innym kolorze. Na wykresie powinien być widoczny procentowy udział składnika w całości w zaokrągleniu do pełnych procentów. Początkowy kąt ustaw na 180 stopni.
+* wykres zapisz za pomocą kodu w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `wyksz.csv` jako ramkę danych,
+* w ramki danych stwórz 3 oddzielne ramki danych zawierających odpowiednie wiersze zawierające dane o wykształceniu wyższym, policealnym i średnim,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący dane o wykształceniu względem przedziału wiekowego. Wykres powinien posiadać odpowiedni tytuł. Legenda powinna być umieszczona po prawej stronie w połowie wysokości. Etykiety i podziałki obu osi muszą być podpisane jak w pliku `zad5.png`.
+
+
+Dane pochodzą z Narodowego Spisu Ludności z roku 2002. Źródło danych: Bank danych lokalnych GUS. 
