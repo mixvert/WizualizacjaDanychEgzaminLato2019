@@ -1,0 +1,47 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 11"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz trzy zbiory (ang. set) zawierające po 5 imion. Następnie wyznacz sumę i część wspólną wszystkich zbiorów.
+
+Zad.2. (10 pkt) Stwórz funkcję `mnozenie` z niesprecyzowaną liczbą argumentów. Funkcja ma zwracać iloczyn elementów przekazanych jako argumenty. Stwórz przypadek testowy dla funkcji.
+
+Zad.3. (10 pkt) Stwórz klasę zawierającą co najmniej dwie funkcje:
+
+* `getString` pobierającą string ze standardowego wejścia (konsoli),
+* `printString` wyświetlającą string na standardowym wyjściu (dodatkowo małe litery mają być zamienione na duże).
+
+Stwórz przypadek testowy.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `planety.csv` jako ramkę danych,
+* z ramki wybierz te pozycje, gdzie masa jest większa niż 1000000,
+* stwórz wykres kołowy dla wybranych pozycji, podpisz na wykresie procenty i nazwy planet, których dotyczą. Wykres powinien posiadać tytuł. Kolor wycinków koła powinien być inny niż domyślny. W lewym dolnym rogu wykresu dodaj tekst ze swoim numerem indeksu.
+* zapisz wykres jako pdf za pomocą kodu.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Dane pochodzą z Wikipedii na licencji CC BY-SA 3.0. Masa jest odpowiednio przeskalowana na potrzeby zadania.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności (wszystkie w sposób programistyczny):
+
+* załaduj dane z pliku `dosw11.csv` jako ramkę danych,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku na dwa wykresy,
+* w górnej części przygotuj wykres liniowy zmiennej od czasu, 
+* sprawdź ile i jakich wartości zmiennej jest powyżej 10,
+* zastąp wszystkie wartości powyżej 10 jako 1.13,
+* w dolnej części stwórz wykres liniowy z poprawionymi danymi,
+* oba wykres powinny posiadać tytuł i legendę.
+
+
+
