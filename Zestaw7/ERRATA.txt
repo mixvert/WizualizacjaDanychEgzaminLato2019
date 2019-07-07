@@ -1,1 +1,1 @@
-W zad.4 i 5. są pomylone nazwy plików. Poprawne do dosw7.csv i sport6.csv.
+W zad.4 i 5. są pomylone nazwy plików. Poprawne to dosw7.csv i sport6.csv.
