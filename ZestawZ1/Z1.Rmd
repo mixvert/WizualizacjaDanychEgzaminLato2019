@@ -1,0 +1,26 @@
+---
+title: "Egzaminy zerowy - Wizualizacja Danych - Zestaw Z1"
+output:
+  pdf_document: default
+  word_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Za wykonanie 80% zadania jest przepisanie oceny z ćwiczeń.
+
+1. Załaduj plik `prog.csv` jako ramkę danych i wykonaj poniższe instrukcje:
+
+* ustaw kolumnę z językami jako indeksy (nazwy wierszy)
+* posortuj dane wg roku (od najwcześniejszego do najpóźniejszego),
+* stwórz wykres słupkowy pionowy pokazujący zmianę wynagrodzenia i indeksu popularności pomiędzy rokiem 2019 a 2018. Wykres powinien posiadać tytuł, legendę, podpisaną etykietę poziomą. Legenda nie powinna znajdować się w lewym górnym rogu. Zaznacz na wykresie poziomą linią zero.
+* na lewym górnym rogu wykresu dodaj adnotację/tekst ze swoim numerem indeksu.
+
+Opis kolumn w pliku csv:
+
+* język - język programowania,
+* rok - rok kalendarzowy, którego dane dotyczą,
+* Wyn. w $ za godz. - stawka za godzinę w dolarach przeciętnego wynagrodzenia.
+* Indeks popularnosci - indeks popularności zapytań o danych język na forach internetowych.
+
+Dane są fikcyjne. Inspiracja do wykresu jest w pliku `myplot.png`.
+
