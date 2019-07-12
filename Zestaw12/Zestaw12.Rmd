@@ -1,0 +1,32 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 12"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program, który ze standardowego wejścia (wprowadzonego przez użytkownika) pobiera pięć liczb całkowitych. Z podanych liczb otwórz listę i krotkę (tuple). 
+
+Zad.2. (10 pkt) Napisz program, który zamienia liczby z systemu dziesiętnego na dwójkowy. Stwórz przypadek testowy.
+
+Zad.3. (10 pkt) Napisz funkcję, której zadaniem będzie obliczanie kolejnych elementów ciągu $a_n = \frac{n^2+3n}{n-55}$. Oblicz i wyświetl $a_{100}$.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `zyski.csv` jako ramkę danych,
+* stwórz wykres liniowy prezentujący zyski z filmów i gier w poszczególnych miesiącach. Wykres powinien posiadać tytuł i legendę. Zyski z filmów powinny być niebieską linią przerywaną, a z gier zieloną ciągłą. Wykres powinien posiadać siatkę i podpisane etykiety obu osi. Podziałkę na osi pionowej ustaw między 0 a 100. Podziałka na osi poziomej ma być podpisana nazwami miesięcy.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport12.csv` jako ramkę danych,
+* ustaw kolumnę z nazwami dyscyplin jako indeksy (nazwy wierszy),
+* stwórz dwie ramki danych odpowiadające pozycjom dotyczącym mężczyzn i kobiet,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący popularność dyscyplin. Słupki dla kobiet i mężczyzn powinny być w różnych kolorach. Wykres powinien posiadać tytuł i legendę. Podziałka na osi pionowej powinna być podpisana nazwami miesięcy. Schowaj podziałkę na osi poziomej.
