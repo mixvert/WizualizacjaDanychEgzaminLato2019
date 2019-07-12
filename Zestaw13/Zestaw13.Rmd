@@ -1,0 +1,36 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 13"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program, który na konsoli wyświetli liczby pomiędzy 450 a 723 podzielne przez 8, ale nie podzielne przez 7. Liczby mają być wyświetlone w kolejnych wierszach.
+
+Zad.2. (10 pkt) Napisz funkcję, której argumentem są dwa słowniki. Funkcja ma zwracać `True`, jeśli klucze obu słowników są identyczne oraz `False` w przeciwnym wypadku. Stwórz przypadek testowy.
+
+Zad.3. (10 pkt) Napisz klasę zawierającą funkcję odwracającą kolejność znaków w stringu. Stwórz przypadek testowy.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe instrukcje:
+
+* załaduj dane z pliku `temp.csv` jako ramkę danych (upewnij się, że pierwszy wiersz nie jest nagłówkiem),
+* stwórz wykres słupkowy temperatur w poszczególnych miesiącach. Wykres powinien posiadać tytuł. Podziałka na osi poziomej ma być podpisana miesiącami pionowo (wskazówka: ustaw `rotation` na 90). Dodaj linię prostą $y=0$ na wykres.
+* zapisz wykres w formacie png za pomocą kodu.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `medale.csv`,
+* stwórz serię (lub ramkę lub tablicę) zawierającą sumę medali dla poszczególnych olimpiad,
+* stwórz dwie serie (lub ramki lub tablice) zawierające odpowiednio sumę medali dla poszczególnych olimpiad letnich i zimowych,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku dwa wykresy słupkowe prezentujące liczbę medali Polski na poszczególnych olimpiadach. Wykresy powinny posiadać tytuły. Słupki dla olimpiad letnich powinny być pomarańczowe, a dla zimowych niebieskie. Podziałka na osi pionowej powinna być taka sama dla obu wykresów i pojawiać się co 5 jednostek.
+
+
+
