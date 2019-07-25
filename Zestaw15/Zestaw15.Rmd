@@ -1,0 +1,39 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 15"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10pkt) Napisz program, który zamienia krotkę (tuple) dodatnich całkowitych na liczbę całkowitą powstałą z ułożenia cyfr kolejnych elementów krotki koło siebie. Stwórz przypadek testowy.
+
+| Przykładowe wejście| Przykładowe wyjście |
+|---|---|
+| $(2,34,55)$ | 23455 |
+| $(22,11,77,54)$ | 22117754 |
+
+Zad.2. (10 pkt) Napisz funkcję, której argumentem jest string. Funkcja ma zwrócić string powstały z wejściowego, w którym wszystkie małe samogłoski zostały zamienione na symbol dolara. Stwórz przypadek testowy.
+
+Zad.3. (10 pkt) Za pomocą podwójnego (zagnieżdżonego) `while` wypisz na konsoli liczby pierwsze mniejsze niż 20.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `rocky.csv`,
+* stwórz wykres słupkowy pionowy prezentujący zyski poszczególnych filmów serii o Rocky. Wykres powinien posiadać tytuł i podpisane etykiety obu osi. Podziałka osi poziomej musi być podpisana nazwami filmów. Słupki powinny być w kolorze zielonym.
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Źródło danych: Wikipedia na licencji  Creative Commons Attribution-ShareAlike.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosw15.csv` jako ramkę danych,
+* wzorując się na pliku `zad5.png` stwórz wykres z dwoma różnymi osiami pionowymi. Kolorem niebieskim ma być linia dotyczącej zmiennej1, a kolorem czerwonymi zmiennej2. Obie linie powinny mieć różne style. 
+* zapisz wykres w formacie pdf za pomocą kodu.
