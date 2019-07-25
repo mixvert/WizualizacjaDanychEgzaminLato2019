@@ -1,0 +1,44 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 14"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz funkcję, której argumentem jest string. Funkcja ma zwrócić string powstały z pięciu pierwszych znaków wejściowego stringu. W przypadku, gdy string ma mniej niż 5 znaków, funkcja ma zwracać wejściowy string. Stwórz przypadek testowy.
+
+Zad.2. (10 pkt) Oblicz i wyświetl na konsoli wyniki poniższych operacji:
+
+* $operacja1 = \arcsin(1/2)+e^\pi$
+* $operacja2 = \frac{a^b+log_a b}{c^4}$
+* $operacja3 = log_{10}(abc)$
+
+Liczby $a,b,c$ mają być pobrane ze standardowego wejścia (pobrane od użytkownika).
+
+Zad.3. (10 pkt) Napisz program, który zamienia listę dodatnich całkowitych na liczbę całkowitą powstałą z ułożenia cyfr kolejnych elementów listy koło siebie. Stwórz przypadek testowy.
+
+| Przykładowe wejście| Przykładowe wyjście |
+|---|---|
+| $[2,34,55]$ | 23455 |
+| $[22,11,77,54]$ | 22117754 |
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj plik `dosw14.csv` jako ramkę danych,
+* stwórz wykres punktowy zmiennej od czasu. Wykres powinien posiadać tytuł. Kropki powinny być czerwone. Dodaj na wykres funkcję $y=0.5+x\cdot\cos(x)$ na przedziale $[1,4]$ (linia niebieska ciągła). Dodaj legendę do wykresu i etykietę do osi poziomej.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport14.csv` jako ramkę danych,
+* ustaw kolumnę z nazwami dyscyplin jako indeksy (nazwy wierszy),
+* stwórz dwie ramki danych odpowiadające pozycjom dotyczącym mężczyzn i kobiet,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący popularność dyscyplin. Słupki dla kobiet i mężczyzn powinny być w różnych kolorach. Wykres powinien posiadać tytuł i legendę. Podziałka na osi poziomej powinna być podpisana nazwami miesięcy. Schowaj podziałkę na osi pionowej.
+
