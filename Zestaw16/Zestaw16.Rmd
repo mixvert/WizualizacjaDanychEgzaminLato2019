@@ -1,0 +1,51 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 16"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10pkt) Stwórz rekurencyjną funkcję daną wzorem:
+$$f(n,0)=0$$
+$$f(n,m)=f(m,n)$$
+$$f(n,m)=n-m+f(n-1,m)+f(n,m-1)$$
+ dla $n\geqslant m>0$.
+Oblicz $f(44,22)$.
+
+Zad.2. (10 pkt) Napisz program, który pobiera z klawiatury od użytkownika rok kalendarzowy. Program ma wyświetlić na konsoli informację czy rok jest przestępny. Wskazówka: rok jest przestępny jeśli odpowiadająca liczba jest:
+
+* podzielna przez 4 i niepodzielna przez 100 lub
+* jest podzielna przez 400.
+
+Sprawdź czy rok 2000 był przestępny.
+
+Zad.3. (10 pkt) Zaimplementuj klasę `Rakieta` o następujących własnościach:
+
+* metoda `__init__` inicjalizuje położenie rakiety (domyślne jest (0,0)),
+* metoda `przesun` przesuwa rakietę o x wzdłuż osi X i o y wzdłuż osi Y,
+* metoda `pozycja` wypisuje położenie rakiety na płaszczyźnie,
+* metoda `odleglosc` obliczy odległość między wybraną rakietą a inną rakietą.
+
+Stwórz przypadek testowy.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe instrukcje:
+
+* załaduj dane z pliku `filmy.csv` jako ramkę danych,
+* stwórz wykres kołowy na podstawie danych. Wykres powinien posiadać tytuł. Każdy wycinek powinien być w innym kolorze i różnym niż domyślny. Dodaj procenty do wycinków. Każdy wycinek powinien posiadać etykietę.
+* zapisz wykres w formacie png za pomocą kodu.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe instrukcje:
+
+* załaduj dane z pliku `wyksz.csv` jako ramkę danych,
+* utwórz 3 serie (lub tablice lub ramki danych) powstałe z przefiltrowania danych o wykształceniu odpowiednio wyższym, średnim i podstawowym,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku trzy wykresy słupkowe,
+* w górnej części ma być wykształcenie wyższe względem wieku, w środkowej średnie względem wieku, w dolnej podstawowe względem wieku,
+* każdy wykres powinien posiadać tytuł,
+* na każdym wykresie podziałka osi poziomej powinna być podpisana przedziałami wiekowymi,
+* wykresy powinny się różnić kolorami słupków.

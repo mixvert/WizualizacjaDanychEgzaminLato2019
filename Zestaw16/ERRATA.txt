@@ -1,0 +1,1 @@
+W zad5 w pliku zad5.png wysokości słupków nie są w pełni adekwatne do danych w pliku wyksz.csv.
