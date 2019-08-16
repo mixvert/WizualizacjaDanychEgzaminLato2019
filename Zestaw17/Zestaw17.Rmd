@@ -1,0 +1,44 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 17"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt)  Zaimplementuj klasę `Rakieta` o następujących własnościach:
+
+* metoda `__init__` inicjalizuje położenie rakiety (domyślne jest (1,1)),
+* metoda `przesun` przesuwa rakietę o x wzdłuż osi X i o y wzdłuż osi Y,
+* metoda `pozycja` wypisuje położenie rakiety na płaszczyźnie,
+* metoda `odleglosc` obliczy odległość między wybraną rakietą a inną rakietą.
+
+Stwórz przypadek testowy.
+
+Zad.2. (10 pkt) Stwórz słownik, którego kluczem jest nazwa miesiąca a wartością ilość dni w miesiącu. Następnie wypisz na konsoli te miesiące, których liczba dni wynosi 30.
+
+Zad.3. (10 pkt) Napisz funkcję, której argumentami są 4 dodatnie liczby całkowite. Funkcja ma zwrócić pole czworokąta o długości boków przekazanych jako argumenty. Stwórz przypadek testowy. Wskazówka: wzór na pole $P=\sqrt{(p-a)(p-b)(p-c)(p-d)}$, gdzie $p=\frac{a+b+c+d}{2}$.
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `planety.csv` jako ramkę danych,
+* z ramki wybierz te pozycje, gdzie masa jest mniejsza niż 500000,
+* stwórz wykres kołowy dla wybranych pozycji, podpisz na wykresie procenty i nazwy planet, których dotyczą. Wykres powinien posiadać tytuł. Kolor wycinków koła powinien być inny niż domyślny. W prawym górnym rogu wykresu dodaj tekst ze swoim numerem indeksu.
+* zapisz wykres jako pdf za pomocą kodu.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności (wszystkie w sposób programistyczny):
+
+* załaduj dane z pliku `dosw17.csv` jako ramkę danych,
+* wzorując się na pliku `zad5.png` stwórz na jednym rysunku na dwa wykresy,
+* w górnej części przygotuj wykres liniowy zmiennej od czasu, 
+* sprawdź ile i jakich wartości zmiennej jest powyżej 10,
+* zastąp wszystkie wartości powyżej 10 jako braki (np. `nan` z biblioteki NumPy),
+* w dolnej części stwórz wykres liniowy z poprawionymi danymi,
+* oba wykres powinny posiadać tytuł i legendę.

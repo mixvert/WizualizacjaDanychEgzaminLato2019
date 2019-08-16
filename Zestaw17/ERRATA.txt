@@ -1,0 +1,1 @@
+Zad.4. Jeśli wykonano filtrowanie wg polecenia (z progiem pół miliona), to wykres w pliku zad4.png nie jest poprawny. Aby osiągnąć wykres z tego pliku, filtrowanie należało zrobić od progu 50 tysięcy.
