@@ -1,0 +1,71 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 18"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt)  Stwórz pogram, a w nim wykonaj czynności:
+
+* stwórz klasę `Osoba` z polami imię, nazwisko, rokUrodzenia, wiek.
+* w klasie Osoba stwórz konstruktor z parametrami ustanawiającymi imię, nazwisko i rok urodzenia, wiek ma być obliczony automatyczny.
+* w klasie stwórz funkcję bez parametru `info`, która wyświetla na konsoli dane o obiekcie w oddzielnej linijce w postaci:
+
+```
+| Imię | Nazwisko | rok urodzenia | wiek |
+```
+
+np.
+
+```
+| Jan | Kowalski | 1990 | 29 |
+```
+
+(ważne: pamiętaj o spacji przy `|`).
+
+W programie stwórz dwa obiekty w typie `Osoba`, nadaj im dowolne parametry i wywołaj dla nich funkcję `info`.
+
+Zad.2. (10 pkt) Napisz program z funkcją rekurencyjną daną wzorem:
+
+$$f(0)=1, \quad f(1)=1$$
+$$f(n)= 4\cdot f(n-1)+5$$
+
+Oblicz i wyświetl $f(19)$.
+
+Zad.3. (10 pkt) Napisz program, która będzie zwracał największą i najmniejszą wartość z krotki/tuple (która ma być parametrem funkcji). Wyjście ma być zapisane jako lista.
+
+Przykładowe wejście:
+
+```
+(2,3,-3,6,-9)
+```
+
+Przykładowe wyjście:
+
+```
+[-9,6]
+```
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `sport.csv` (zawarte są tam informacje popularności sportów w grupie nastolatków), upewnij się, że pierwszy wiersz nie jest ustawiony jako nagłówek.
+* stwórz wykres kołowy prezentujący procentowe zainteresowanie poszczególnymi sportami. Każdy wycinek powinien być w innym kolorze i podpisany liczbą procentów (w zaokrągleniu do pełnych procentów) oraz nazwą sportu, którego dotyczy. Wykres powinien posiadać tytuł.
+* na wykresie w lewym górnym rogu dodaj string ze swoim numerem indeksu.
+* za pomocą kodu zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+
+Zad.5. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `wyksz.csv` jako ramkę danych,
+* w ramki danych stwórz 3 oddzielne ramki danych zawierających odpowiednie wiersze zawierające dane o wykształceniu wyższym, średnim i podstawowym,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący dane o wykształceniu względem przedziału wiekowego. Wykres powinien posiadać odpowiedni tytuł. Legenda powinna być umieszczona po prawej stronie w połowie wysokości. Etykiety i podziałki obu osi muszą być podpisane jak w pliku `zad5.png`.
+
+
+Dane pochodzą z Narodowego Spisu Ludności z roku 2002. Źródło danych: Bank danych lokalnych GUS. 
