@@ -1,0 +1,23 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw P2"
+output:
+  pdf_document: default
+  word_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Pliki umieść na pulpicie.
+
+Do uzyskania przepisania oceny z ćwiczeń, trzeba wykonać 80% polecenia. Po wykonaniu 60% polecenia, oceną na koniec będzie ocena dostateczna (3,0). W przeciwnym wypadku, ocena niedostateczna za pierwszy termin.
+
+Zadanie. Wykonaj poniższe czynności:
+
+* załaduj dane z pliku `przepis.csv` jako ramkę danych,
+* ustaw jako indeksy (nazwy wierszy) kolumnę z nazwami składników,
+* stwórz wykres kołowy prezentujący procent udział składników w przepisie, podpisz każdy wycinek odpowiednią nazwą składnika. Wykres powinien posiadać tytuł. Każdy wycinek powinien być w innym kolorze. Na wykresie powinien być widoczny procentowy udział składnika w całości w zaokrągleniu do pełnych procentów. Największa część powinna być lekko odsunięta od reszty.
+* wykres zapisz za pomocą kodu w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku wykres.png.
+
