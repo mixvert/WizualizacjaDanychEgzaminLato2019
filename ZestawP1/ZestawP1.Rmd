@@ -1,0 +1,57 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw P1"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Pliki umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz klasę zdefiniowaną dla pojazdów – `Pojazd`. Stwórz dwa nowe obiekty tej klasy: `Auto1` i `Auto2`. `Auto1` powinno mieć kolor "czerwony", rodzaj "kabriolet", wartość 60000 i nazwę "Ferrari". `Auto2` powinien mieć kolor "niebieski", rodzaj "autobus", wartość 10000 i nazwę "Ikarus".
+
+Zad.2. (10 pkt) Napisz program, który od użytkownika z konsoli pobiera liczbę w systemie dwójkowym. Na wyjściu program powinien wyświetlić liczbę w systemie dziesiętnym. Program można zaimplementować dowolnie.
+
+Zad.3. (10 pkt) Za pomocą "List Comprehension" stwórz listę (może być zagnieżdżona) przechowująca wyniki mnożenia wszystkich możliwych kombinacji liczb całkowitych od 1 do 7.
+
+Wyjściowa lista może być przykładowo takiej postaci:
+
+```python
+[[1, 2, 3, 4, 5, 6, 7], [2, 4, 6, 8, 10, 12, 14], 
+[3, 6, 9, 12, 15, 18, 21], [4, 8, 12, 16, 20, 24, 28], 
+[5, 10, 15, 20, 25, 30, 35], [6, 12, 18, 24, 30, 36, 42], 
+[7, 14, 21, 28, 35, 42, 49]]
+```
+
+Stwórz przypadek testowy dla funkcji.
+
+Zad.4. (15pkt) Załaduj plik `prog.csv` jako ramkę danych i wykonaj poniższe instrukcje:
+
+* ustaw kolumnę z językami jako indeksy (nazwy wierszy)
+* posortuj dane wg roku (od najwcześniejszego do najpóźniejszego), wskazówka: użyj funkcji `sort_values`,
+* stwórz wykres słupkowy pionowy pokazujący zmianę wynagrodzenia i indeksu popularności pomiędzy rokiem 2019 a 2018. Wykres powinien posiadać tytuł, legendę, podpisaną etykietę poziomą. Legenda nie powinna znajdować się w lewym górnym rogu. Zaznacz na wykresie poziomą linią zero.
+* na lewym górnym rogu wykresu dodaj adnotację/tekst ze swoim numerem indeksu.
+* zapisz wykres w formacie pdf.
+
+Opis kolumn w pliku csv:
+
+* język - język programowania,
+* rok - rok kalendarzowy, którego dane dotyczą,
+* Wyn. w $ za godz. - stawka za godzinę w dolarach przeciętnego wynagrodzenia.
+* Indeks popularnosci - indeks popularności zapytań o danych język na forach internetowych.
+
+Dane są fikcyjne. Inspiracja do wykresu jest w pliku `zad4.png`.
+
+Zad.5. Wykonaj wykres wzorując się na pliku zad5.png. Potrzebne dane znajdziesz w pliku `wp.csv`. Wskazówki:
+
+* załaduj z pliku ramkę danych, ustaw odpowiedni separator i odpowiednio indeksy,
+* wykres na budżet (niebieskie słupki): podziałka na osi pionowej ograniczona od 80000000 do 120000000. 
+* wykres na zyski (czerwone słupki): podziałka na osi pionowej ograniczona od 800000000 do 1200000000.
+* wykres powinien posiadać tytuł i podpisane etykiety obu osi w odpowiednich kolorach.
+* zapisz wykres w formacie png.
+
+
+
+
