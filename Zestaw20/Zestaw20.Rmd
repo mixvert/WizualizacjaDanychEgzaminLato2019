@@ -1,0 +1,36 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 20"
+output:
+  pdf_document: default
+  word_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Stwórz program i wykonaj w nim następujące instrukcje:
+
+* stwórz 3 listy zawierające dowolne elementy,
+* stwórz krotkę zawierającą elementy ze stworzonych wcześniej list.
+
+Zad.2. (10 pkt) Napisz funkcję, która na podstawie przekazanych argumentów zwraca pole prostokąta. Stwórz przypadek testowy.
+
+Zad.3. (10 pkt) Za pomocą 'list comprehensions' wypisz na standardowym wyjściu (konsoli) w kolejnych wierszach liczby od 123 do 151 (włącznie).
+
+Zad.4. (15 pkt) W pliku `samochody.csv` znajdują się dane o samochodach zarejestrowanych na terenie miasta Olsztyn w 2017 roku według ich pojemności silnika. Na podstawie tych danych przygotuj wykres kołowy prezentujący dane z pliku. Wykres zapisz w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) Załaduj plik `sklepy.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* ustaw kolumnę z typami sklepów jako indeksy,
+* stwórz zmienną (wektor, listę, ramkę danych, serię lub tablicę) przechowującą informację o liczbie obiektów poszczególnych rodzajów sklepów w 2016 roku,
+* stwórz wykres słupkowy prezentujący rodzaje sklepów w 2016 roku. Wykres powinien posiadać tytuł i odpowiednio podpisaną podziałkę.
+
+Inspirację do wykresu znajdziesz w pliku `zad5.png`.
+
+Źródło danych: Bank Danych Lokalnych GUS.
+

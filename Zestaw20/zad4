@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+dane = pd.read_csv("samochody.csv", index_col=0)
+labels = dane.index
+plt.pie(dane, labels=labels)
+plt.title("Samochody zarejestrowane na terenie miasta Olsztyn w 2017 r.")
+plt.savefig("wykres4.pdf")
+plt.show()
