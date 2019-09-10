@@ -1,0 +1,49 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 21"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program z funkcją rekurencyjną daną wzorem:
+
+$$f(0)=1, \quad f(1)=2$$
+$$f(n)= 2\cdot f(n-2)-2$$
+
+Oblicz i wyświetl $f(5)$.
+
+Zad.2. (10 pkt) Stwórz słownik, którego kluczami są liczby naturalne od 1 do 7, a wartościami odpowiadające dni tygodnia. 
+
+Zad.3. (10 pkt) Napisz funkcję, której argument nie ma sprecyzowanej długości. Funkcja ma zwrócić największą liczbę spośród liczb przekazanych jako argument funkcji. Stwórz przypadek testowy dla funkcji.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---|
+| 2,3,4,4,-2,8,10 | 10|
+| 2,3 | 3|
+| 5 | 5 |
+| 1,2,-3,40 | 40 |
+
+Zad.4. (15 pkt) Załaduj plik `zlobki.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* ustaw kolumnę z latami jako indeksy (nazwy wierszy),
+* stwórz wykres słupkowy na podstawie danych o liczbie dzieci w poszczególnych latach, każdy słupek powinien być w innym kolorze. Wykres powinien posiadać tytuł. Oś pionowa powinna być od zera do największej wartości. Podziałka na osi poziomej powinna być podpisana odpowiednimi latami.
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Źródło danych: Bank danych lokalnych GUS.
+
+Zad.5. (15 pkt) Załaduj plik `waluta.csv` i wykonaj poniższe czynności:
+
+* stwórz oddzielne serie (lub listy lub jednowymiarowe tablice) przechowujące o dniu i kursie, w pliku są informacje o kursie dolara kanadyjskiego z sierpnia 2019,
+* stwórz wykres liniowy przedstawiają kurs tej waluty, linia powinna być w kolorze innym niż domyślny. Na wykres nanieś przerywaną linię odpowiadającą prostej $y=2.95$ (kolor powinien być inny niż domyślny i inny niż wcześniejszy). Ustaw zakres osi pionowej na przedział $[2.9,3.0]$. Dodaj tytuł do wykresu. Dodaj etykietę do osi poziomej.
+
+Inspirację do wykresu znajdziesz w pliku `zad5.png`.
+
+Źródło danych: Narodowy Bank Polski.

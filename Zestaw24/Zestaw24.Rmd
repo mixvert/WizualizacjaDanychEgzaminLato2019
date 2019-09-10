@@ -1,0 +1,45 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 24"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program z funkcją rekurencyjną daną wzorem:
+
+$$f(0)=1, \quad f(1)=2$$
+$$f(n)= 3\cdot f(n-2)$$
+
+Oblicz i wyświetl $f(6)$.
+
+Zad.2. (10 pkt) Stwórz słownik, którego kluczami są liczby naturalne od 1 do 7, a wartościami odpowiadające dni tygodnia. 
+
+Zad.3. (10 pkt) Napisz funkcję, której argument nie ma sprecyzowanej długości. Funkcja ma zwrócić najmniejszą liczbę spośród liczb przekazanych jako argument funkcji. Stwórz przypadek testowy dla funkcji.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---|
+| 2,3,4,4,-2,8,10 | -2|
+| 2,3 | 2|
+| 5 | 5 |
+| 1,2,-3,40 | -3 |
+
+Zad.4. (15 pkt) Załaduj plik `tv.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* stwórz wykres kołowy prezentujące oglądalność stacji tv (dane są w pliku). Wykres powinien posiadać tytuł. Wartości procentowe powinny być zaokrąglone do jednego miejsca po przecinku. Wycinki koła dotyczące trzech stacji z największą oglądalnością powinny być nieco wysunięte,
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) Załaduj plik `medale.csv` i wykonaj poniższe czynności:
+
+* stwórz trzy serie (lub jednowymiarowe tablice lub listy) przechowujące dane o medalach odpowiednio złotych, srebrnych i brązowych,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy. Słupki odpowiadające tym samym medalom powinny być w tym samym kolorze. Wykres powinien posiadać tytuł. Umieść legendę w prawym górnym rogu. Podziałkę na osi pionowej ustal na zakres $[0,10]$. Oś poziomą podpisz nazwami odpowiednich olimpiad.
+
+Źródło danych: Wikipedia.
+

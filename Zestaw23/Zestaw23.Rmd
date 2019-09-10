@@ -1,0 +1,33 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 23"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program, który oblicza wartość funkcji $f(x) = x^4+5\cdot\sin(x)+\frac{1}{x}+\sqrt{x}$ dla $x=10$. Wynik wyświetl na standardowym wyjściu (konsoli).
+
+Zad.2. (10 pkt) Napisz funkcję, której argumentem jest lista składająca się z liczb całkowitych. Funkcja ma zwrócić sumę elementów listy. Stwórz przypadek testowy dla funkcji.
+
+Zad.3. (10 pkt) Napisz program wyświetlający na standardowym wyjściu (konsoli) liczby pomiędzy 100 a 200 podzielne przez 11 a niepodzielne przez 15.
+
+Zad.4. (15 pkt) Załaduj plik `dosw23.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* stwórz wykres liniowy prezentujący zależność zmiennej 1 i 2 od czasu. Każda z linii musi być w innym kolorze (dodatkowo różnym od domyślnego). Styl każdej z linii musi być różny od domyślnego. Dodaj na wykres legendę i tytuł. 
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) Załaduj plik `sklepy.csv` i wykonaj poniższe czynności:
+
+* stwórz wykres słupkowy poziomy prezentujący liczbę różnych rodzajów sklepów. Kolor słupków powinien być inny niż domyślny. Podpisz podziałkę osi pionowej rodzajami sklepów. Podziałka osi poziomej powinna być ustalona co 100 jednostek. Dodaj do wykresu tytuł i siatkę.
+
+Inspirację do wykresu znajdziesz w pliku `zad5.png`.
+
+Źródło danych: Bank danych lokalnych GUS.

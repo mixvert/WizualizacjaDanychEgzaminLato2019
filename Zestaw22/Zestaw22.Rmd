@@ -1,0 +1,51 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 22"
+output:
+  pdf_document: default
+  word_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz funkcję, której argumentem jest string. Funkcja ma zwracać string powstały z wejściowego z usuniętymi znakami na parzystych indeksach. Stwórz przypadek testowy dla funkcji.
+
+| Przykładowe wejście | Przykładowe wyjście |
+|---|---| 
+| abcdef | bdf|
+| Olsztyn |lzy |
+
+Zad.2. (10 pkt) Napisz program, który zamienia dowolny zbiór (ang. set) na krotkę (ang. tuple).
+
+Zad.3. (10 pkt) Napisz program, który za pomocą pętli (może być zagnieżdżonej) wyświetli na standardowym wyjściu (konsoli) następującą sekwencję znaków:
+
+```
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+```
+
+Zad.4. (15 pkt) Załaduj do programu plik `hotele.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* ustaw rodzaj hotelu jako indeksy (nazwy wierszy)
+* stwórz wykres kołowy prezentujące dane zawarte w pliku, na wykresie powinny być widoczne procentowe wartości z zaokrągleniem do pełnej liczby całkowitej. Wykres powinien posiadać tytuł. 
+* zapisz wykres w formacie png.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) Załaduj plik `ceny.csv` i wykonaj poniższe czynności:
+
+* stwórz dwie serie (listy, tablice) przechowujące odpowiednie ceny ryżu i marchwi w poszczególnych miesiącach,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący dane. Wykres powinien posiadać tytuł. Legenda powinna być umieszczona w lewym górnym rogu. Zakres osi pionowej powinien być ustawiony na przedział $[3,4]$. Podziałka osi poziomej powinna być podpisana nazwami miesięcy.
+
+Źródło danych: Bank danych lokalnych GUS.
+
