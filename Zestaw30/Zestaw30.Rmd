@@ -1,0 +1,59 @@
+---
+title: "Egzamin z Wizualizacji Danych - Zestaw 30"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+*Punktacja: maks. 60 pkt. 0-29 pkt - 2,0 (ndst). 30-38 pkt - 3,0 (dst). 39-44 pkt - 3,5 (dst+). 45-50 pkt - 4,0 (db). 51-53 pkt - 4,5 (db+), 54-60 pkt - 5,0 (bdb).*
+
+Aby rozwiązanie było sprawdzane, kod musi w całości zostać poprawnie zinterpretowany. Kod powinien spełniać zasady stylu PEP8. Każde zadanie (numerowane) powinno być w oddzielnym pliku. Po zakończonej pracy wszystkie kody umieść w jednym folderze. Spakuj folder do jednego archiwum, nazwa archiwum to numer indeksu. Plik archiwum do sprawdzenia umieść na pulpicie.
+
+Zad.1. (10 pkt) Napisz program, która odwraca kolejność elementów w liście.
+
+Przykładowe wejście:
+
+```
+[3,4,5]
+```
+
+Przykładowe wyjście:
+
+```
+[5,4,3]
+```
+
+Zad.2. (10 pkt) Napisz funkcję, której argumentem jest lista liczb całkowitych. Funkcja ma zwracać liczbę liczb parzystych w liście przekazanej jako argument. Stwórz przypadek testowy.
+
+Przykładowe wejście:
+
+```
+[3,4,5,6,1,2]
+```
+
+Przykładowe wyjście:
+
+```
+3
+```
+
+Zad.3. (10 pkt) Wykonaj poniższe operacje i ich wyniki wyświetl na konsoli:
+
+* $operacja1 = \log _5 (9^5)$
+* $operacja2 = \sin\left(\frac{55}{56}\pi\right)$
+
+Zad.4. (15 pkt) W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku `dosw30.csv` jako ramkę danych,
+* na podstawie danych stwórz wykres punktowy zmiennej od czasu, linia powinna być w innym kolorze i stylu niż domyślne ustawienia. Wykres powinien posiadać tytuł i podpisane etykiety obu osi, legendę umieść w środkowej dolnej części wykresu. 
+* zapisz wykres w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad4.png`.
+
+Zad.5. (15 pkt) Załaduj plik `sklepy.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* ustaw kolumnę z typami sklepów jako indeksy,
+* stwórz zmienną (wektor, listę, ramkę danych, serię lub tablicę) przechowującą informację o liczbie obiektów poszczególnych rodzajów sklepów w poszczególnych latach,
+* wzorując się na pliku `zad5.png` stwórz wykres słupkowy prezentujący rodzaje sklepów w różnych latach. Wykres powinien posiadać tytuł i odpowiednio podpisaną podziałkę oraz legendę.
